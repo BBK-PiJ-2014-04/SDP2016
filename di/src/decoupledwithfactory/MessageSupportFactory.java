@@ -10,8 +10,9 @@ public class MessageSupportFactory {
 	private MessageRenderer renderer = null;
 	private MessageProvider provider = null;
 
+	//we don't want people to instantiate but we want to use the static method
 	private MessageSupportFactory() {
-		props = new Properties();
+		props = new Properties(); //Hashmap structure
 
 		try {
 			props.load(new FileInputStream("/Users/keith/Courses/sdp/2016/SDP2016/di/src/decoupledwithfactory/bean.properties"));
@@ -36,7 +37,8 @@ public class MessageSupportFactory {
 
 	public static MessageSupportFactory getInstance() {
 		return instance;
-	}
+	} //this returns in fact an instance of this class, as instance is a MessageSupportFactory instance. Since we are inside the class, we can actually instantiate a new class.
+	//but everytime this method is call, the same reference is returned.
 
 	public MessageRenderer getMessageRenderer() {
 		return renderer;
