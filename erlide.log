@@ -1,0 +1,23 @@
+18:55:27,518 I: (ErlangCore.java:64) : Starting CORE Thread[Worker-4,5,main]
+18:55:27,549 I: (ErlangCore.java:79) : *** starting Erlide v0.29.13.201509091656 (core=0.24.13.201509091656) (model api=0.24.12.201509091656) *** (Cp1252) ui
+18:55:28,032 I: (ErlangCore.java:86) : Started CORE
+18:55:28,032 F: (ErlangPlugin.java:88) : Core started
+18:55:29,202 F: (ErlangHostnameRetriever.java:40) : Test long hostname: CSPC085.dcs.bbk.ac.uk
+18:55:29,467 F: (ErlangHostnameRetriever.java:40) : Test short hostname: CSPC085
+18:55:29,483 F: (HostnameUtils.java:74) : Detected:: CSPC085 && CSPC085.dcs.bbk.ac.uk
+18:55:29,514 F: (BackendActivator.java:25) : Backend plugin started
+18:55:29,514 I: (ErlideUIPlugin.java:130) : Starting UI Thread[Worker-4,5,main]
+18:55:29,530 F: (ModelActivator.java:19) : Starting Erlang model api
+18:55:29,530 F: (BackendFactory.java:42) : Create ide backend 18.0.0
+18:55:29,545 F: (BackendFactory.java:56) : Create backend dc165_scarda01_7e1afa_erlide
+18:55:29,592 F: (OtpNodeProxy.java:301) : Runtime dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk starting
+18:55:29,592 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.0/bin/erl", -name, dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk, -setcookie, erlide] *** H:\SDP2016
+18:55:29,608 F: (OtpNodeProxy.java:212) : dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk: waiting connection to peer... 
+18:55:30,029 F: (OtpNodeProxy.java:219) : connected!
+18:55:30,153 F: (OtpNodeProxy.java:306) : Runtime dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk running
+18:55:30,294 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_17e1b48@CSPC085.dcs.bbk.ac.uk'}
+18:55:30,325 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+18:55:30,699 F: (ModelActivator.java:30) : Started model api
+18:55:30,699 I: (ErlideUIPlugin.java:152) : Started UI
+18:56:49,322 F: (OtpNodeProxy.java:311) : Runtime dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk stopping
+18:56:49,337 F: (OtpNodeProxy.java:271) : Runtime dc165_scarda01_7e1afa_erlide@CSPC085.dcs.bbk.ac.uk terminated
